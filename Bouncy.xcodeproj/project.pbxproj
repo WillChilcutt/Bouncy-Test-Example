@@ -13,6 +13,14 @@
 		9335DEBB13E8C362006D2AD6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9335DEB913E8C362006D2AD6 /* Credits.rtf */; };
 		9335DEBE13E8C362006D2AD6 /* BouncyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9335DEBD13E8C362006D2AD6 /* BouncyAppDelegate.m */; };
 		9335DEC113E8C363006D2AD6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9335DEBF13E8C363006D2AD6 /* MainMenu.xib */; };
+		9335DECA13E8D98B006D2AD6 /* BouncyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9335DEC813E8D98B006D2AD6 /* BouncyViewController.m */; };
+		9335DED113E8DCA9006D2AD6 /* BouncyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9335DED013E8DCA9006D2AD6 /* BouncyView.m */; };
+		9335DED413E8DE00006D2AD6 /* BouncyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9335DED313E8DE00006D2AD6 /* BouncyModel.m */; };
+		BE00F1DF15069ED4009910F5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE00F1DE15069ED4009910F5 /* SenTestingKit.framework */; };
+		BE00F1E015069ED4009910F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9335DEAA13E8C362006D2AD6 /* Cocoa.framework */; };
+		BE00F1E615069ED4009910F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE00F1E415069ED4009910F5 /* InfoPlist.strings */; };
+		BE00F1E915069ED4009910F5 /* BouncyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BE00F1E815069ED4009910F5 /* BouncyTest.m */; };
+		BE00F1EE1506A086009910F5 /* BouncyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9335DED313E8DE00006D2AD6 /* BouncyModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +29,27 @@
 		9335DEAD13E8C362006D2AD6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		9335DEAE13E8C362006D2AD6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9335DEAF13E8C362006D2AD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9335DEB213E8C362006D2AD6 /* Bouncy-Info.plist */ = {isa = PBXFileReference; path = "Bouncy-Info.plist"; sourceTree = "<group>"; };
+		9335DEB213E8C362006D2AD6 /* Bouncy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bouncy-Info.plist"; sourceTree = "<group>"; };
 		9335DEB413E8C362006D2AD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9335DEB613E8C362006D2AD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9335DEB813E8C362006D2AD6 /* Bouncy-Prefix.pch */ = {isa = PBXFileReference; path = "Bouncy-Prefix.pch"; sourceTree = "<group>"; };
+		9335DEB813E8C362006D2AD6 /* Bouncy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bouncy-Prefix.pch"; sourceTree = "<group>"; };
 		9335DEBA13E8C362006D2AD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		9335DEBC13E8C362006D2AD6 /* BouncyAppDelegate.h */ = {isa = PBXFileReference; path = BouncyAppDelegate.h; sourceTree = "<group>"; };
+		9335DEBC13E8C362006D2AD6 /* BouncyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BouncyAppDelegate.h; sourceTree = "<group>"; };
 		9335DEBD13E8C362006D2AD6 /* BouncyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BouncyAppDelegate.m; sourceTree = "<group>"; };
 		9335DEC013E8C363006D2AD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9335DEC713E8D98B006D2AD6 /* BouncyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncyViewController.h; sourceTree = "<group>"; };
+		9335DEC813E8D98B006D2AD6 /* BouncyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BouncyViewController.m; sourceTree = "<group>"; };
+		9335DECF13E8DCA9006D2AD6 /* BouncyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncyView.h; sourceTree = "<group>"; };
+		9335DED013E8DCA9006D2AD6 /* BouncyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BouncyView.m; sourceTree = "<group>"; };
+		9335DED213E8DE00006D2AD6 /* BouncyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncyModel.h; sourceTree = "<group>"; };
+		9335DED313E8DE00006D2AD6 /* BouncyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BouncyModel.m; sourceTree = "<group>"; };
+		BE00F1DD15069ED4009910F5 /* BouncyTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BouncyTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE00F1DE15069ED4009910F5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE00F1E315069ED4009910F5 /* BouncyTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BouncyTest-Info.plist"; sourceTree = "<group>"; };
+		BE00F1E515069ED4009910F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE00F1E715069ED4009910F5 /* BouncyTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BouncyTest.h; sourceTree = "<group>"; };
+		BE00F1E815069ED4009910F5 /* BouncyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BouncyTest.m; sourceTree = "<group>"; };
+		BE00F1EA15069ED5009910F5 /* BouncyTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BouncyTest-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +61,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE00F1D915069ED4009910F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE00F1DF15069ED4009910F5 /* SenTestingKit.framework in Frameworks */,
+				BE00F1E015069ED4009910F5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -47,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				9335DEB013E8C362006D2AD6 /* Bouncy */,
+				BE00F1E115069ED4009910F5 /* BouncyTest */,
 				9335DEA913E8C362006D2AD6 /* Frameworks */,
 				9335DEA713E8C362006D2AD6 /* Products */,
 			);
@@ -56,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				9335DEA613E8C362006D2AD6 /* Bouncy.app */,
+				BE00F1DD15069ED4009910F5 /* BouncyTest.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				9335DEAA13E8C362006D2AD6 /* Cocoa.framework */,
+				BE00F1DE15069ED4009910F5 /* SenTestingKit.framework */,
 				9335DEAC13E8C362006D2AD6 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -84,6 +117,12 @@
 			children = (
 				9335DEBC13E8C362006D2AD6 /* BouncyAppDelegate.h */,
 				9335DEBD13E8C362006D2AD6 /* BouncyAppDelegate.m */,
+				9335DEC713E8D98B006D2AD6 /* BouncyViewController.h */,
+				9335DEC813E8D98B006D2AD6 /* BouncyViewController.m */,
+				9335DECF13E8DCA9006D2AD6 /* BouncyView.h */,
+				9335DED013E8DCA9006D2AD6 /* BouncyView.m */,
+				9335DED213E8DE00006D2AD6 /* BouncyModel.h */,
+				9335DED313E8DE00006D2AD6 /* BouncyModel.m */,
 				9335DEBF13E8C363006D2AD6 /* MainMenu.xib */,
 				9335DEB113E8C362006D2AD6 /* Supporting Files */,
 			);
@@ -98,6 +137,26 @@
 				9335DEB613E8C362006D2AD6 /* main.m */,
 				9335DEB813E8C362006D2AD6 /* Bouncy-Prefix.pch */,
 				9335DEB913E8C362006D2AD6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE00F1E115069ED4009910F5 /* BouncyTest */ = {
+			isa = PBXGroup;
+			children = (
+				BE00F1E715069ED4009910F5 /* BouncyTest.h */,
+				BE00F1E815069ED4009910F5 /* BouncyTest.m */,
+				BE00F1E215069ED4009910F5 /* Supporting Files */,
+			);
+			path = BouncyTest;
+			sourceTree = "<group>";
+		};
+		BE00F1E215069ED4009910F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE00F1E315069ED4009910F5 /* BouncyTest-Info.plist */,
+				BE00F1E415069ED4009910F5 /* InfoPlist.strings */,
+				BE00F1EA15069ED5009910F5 /* BouncyTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,12 +181,31 @@
 			productReference = 9335DEA613E8C362006D2AD6 /* Bouncy.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BE00F1DC15069ED4009910F5 /* BouncyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE00F1EB15069ED5009910F5 /* Build configuration list for PBXNativeTarget "BouncyTest" */;
+			buildPhases = (
+				BE00F1D815069ED4009910F5 /* Sources */,
+				BE00F1D915069ED4009910F5 /* Frameworks */,
+				BE00F1DA15069ED4009910F5 /* Resources */,
+				BE00F1DB15069ED4009910F5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BouncyTest;
+			productName = BouncyTest;
+			productReference = BE00F1DD15069ED4009910F5 /* BouncyTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		9335DE9D13E8C362006D2AD6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "UC:Berkeley";
 			};
 			buildConfigurationList = 9335DEA013E8C362006D2AD6 /* Build configuration list for PBXProject "Bouncy" */;
@@ -143,6 +221,7 @@
 			projectRoot = "";
 			targets = (
 				9335DEA513E8C362006D2AD6 /* Bouncy */,
+				BE00F1DC15069ED4009910F5 /* BouncyTest */,
 			);
 		};
 /* End PBXProject section */
@@ -158,7 +237,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE00F1DA15069ED4009910F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE00F1E615069ED4009910F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE00F1DB15069ED4009910F5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9335DEA213E8C362006D2AD6 /* Sources */ = {
@@ -167,6 +270,18 @@
 			files = (
 				9335DEB713E8C362006D2AD6 /* main.m in Sources */,
 				9335DEBE13E8C362006D2AD6 /* BouncyAppDelegate.m in Sources */,
+				9335DECA13E8D98B006D2AD6 /* BouncyViewController.m in Sources */,
+				9335DED113E8DCA9006D2AD6 /* BouncyView.m in Sources */,
+				9335DED413E8DE00006D2AD6 /* BouncyModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE00F1D815069ED4009910F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE00F1E915069ED4009910F5 /* BouncyTest.m in Sources */,
+				BE00F1EE1506A086009910F5 /* BouncyModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +310,14 @@
 				9335DEC013E8C363006D2AD6 /* en */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BE00F1E415069ED4009910F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE00F1E515069ED4009910F5 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -267,6 +390,32 @@
 			};
 			name = Release;
 		};
+		BE00F1EC15069ED5009910F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BouncyTest/BouncyTest-Prefix.pch";
+				INFOPLIST_FILE = "BouncyTest/BouncyTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BE00F1ED15069ED5009910F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BouncyTest/BouncyTest-Prefix.pch";
+				INFOPLIST_FILE = "BouncyTest/BouncyTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -284,6 +433,15 @@
 			buildConfigurations = (
 				9335DEC513E8C363006D2AD6 /* Debug */,
 				9335DEC613E8C363006D2AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE00F1EB15069ED5009910F5 /* Build configuration list for PBXNativeTarget "BouncyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE00F1EC15069ED5009910F5 /* Debug */,
+				BE00F1ED15069ED5009910F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
